@@ -1,0 +1,51 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "tokyo-olympic-jp"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"Athletes_properties_typeProperties_url": {
+			"value": "https://github.com/darshilparmar/tokyo-olympic-azure-data-engineering-project/raw/refs/heads/main/data/Athletes.csv"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://tokyoolympicjp.dfs.core.windows.net/"
+		},
+		"Coaches_properties_typeProperties_url": {
+			"value": "https://github.com/darshilparmar/tokyo-olympic-azure-data-engineering-project/raw/refs/heads/main/data/Coaches.csv"
+		},
+		"Coaches_1_properties_typeProperties_url": {
+			"value": "https://github.com/darshilparmar/tokyo-olympic-azure-data-engineering-project/raw/refs/heads/main/data/Coaches.csv"
+		},
+		"EntriesGender_properties_typeProperties_url": {
+			"value": "https://github.com/darshilparmar/tokyo-olympic-azure-data-engineering-project/raw/refs/heads/main/data/EntriesGender.csv"
+		},
+		"EntriesGender_1_properties_typeProperties_url": {
+			"value": "https://github.com/darshilparmar/tokyo-olympic-azure-data-engineering-project/raw/refs/heads/main/data/EntriesGender.csv"
+		},
+		"EntriesGenderhttp_properties_typeProperties_url": {
+			"value": "https://github.com/darshilparmar/tokyo-olympic-azure-data-engineering-project/raw/refs/heads/main/data/EntriesGender.csv"
+		},
+		"Medal_properties_typeProperties_url": {
+			"value": "https://github.com/darshilparmar/tokyo-olympic-azure-data-engineering-project/raw/refs/heads/main/data/Medals.csv"
+		},
+		"Medals_properties_typeProperties_url": {
+			"value": "https://github.com/darshilparmar/tokyo-olympic-azure-data-engineering-project/raw/refs/heads/main/data/Medals.csv"
+		},
+		"Teams_properties_typeProperties_url": {
+			"value": "https://github.com/darshilparmar/tokyo-olympic-azure-data-engineering-project/raw/refs/heads/main/data/Teams.csv"
+		},
+		"team_properties_typeProperties_url": {
+			"value": "https://github.com/darshilparmar/tokyo-olympic-azure-data-engineering-project/raw/refs/heads/main/data/Teams.csv"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
