@@ -113,13 +113,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Coacheshttp",
+						"referenceName": "Coacheshttps",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "Coachessink",
+						"referenceName": "coachessinks",
 						"type": "DatasetReference"
 					}
 				]
@@ -177,13 +177,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "EntriesGenderhttpss",
+						"referenceName": "EntriesGender",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "EntriesGendersink",
+						"referenceName": "EntriesGender2",
 						"type": "DatasetReference"
 					}
 				]
@@ -241,13 +241,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Medalshttps",
+						"referenceName": "Medalshttp",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "teamssinks",
+						"referenceName": "medalsink",
 						"type": "DatasetReference"
 					}
 				]
@@ -305,13 +305,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Teamshttps",
+						"referenceName": "teamhttp",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "Teamssink",
+						"referenceName": "teamsink",
 						"type": "DatasetReference"
 					}
 				]
