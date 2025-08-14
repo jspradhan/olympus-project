@@ -1,0 +1,22 @@
+{
+	"name": "EntriesGenderhttps",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "EntriesGender",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "https://github.com/darshilparmar/tokyo-olympic-azure-data-engineering-project/raw/refs/heads/main/data/EntriesGender.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
