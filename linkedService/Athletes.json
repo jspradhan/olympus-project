@@ -1,0 +1,12 @@
+{
+	"name": "Athletes",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/jspradhan/olympus-project/raw/refs/heads/main/Athletes.xlsx",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
