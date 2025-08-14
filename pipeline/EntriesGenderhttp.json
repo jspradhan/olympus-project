@@ -228,7 +228,7 @@
 				]
 			},
 			{
-				"name": "Copy data1",
+				"name": "Teams",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -240,8 +240,24 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
+					"source": {
+						"type": "DelimitedTextSource",
+						"storeSettings": {
+							"type": "HttpReadSettings",
+							"requestMethod": "GET"
+						},
+						"formatSettings": {
+							"type": "DelimitedTextReadSettings"
+						}
+					},
 					"enableStaging": false
-				}
+				},
+				"inputs": [
+					{
+						"referenceName": "Teamshttps",
+						"type": "DatasetReference"
+					}
+				]
 			}
 		],
 		"annotations": []
